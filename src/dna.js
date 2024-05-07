@@ -16,6 +16,6 @@ function lookDNA (cadenaAdn) {
         }
     }
 }
-console.log(lookDNA(""));
+//console.log(lookDNA(""));
 
 module.exports = lookDNA;
