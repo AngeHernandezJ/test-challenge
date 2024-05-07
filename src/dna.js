@@ -1,4 +1,3 @@
-/*const CTGA = [C,T,G,A];*/
 result =[];
 function lookDNA (cadenaAdn) {
     let result = cadenaAdn.match(/[ACGT]/g);
@@ -8,7 +7,6 @@ function lookDNA (cadenaAdn) {
     }
     else {
         if (cadenaAdn.length == result.length) {
-            /*return result.join("");*/
             return true;
         }
         else {
@@ -16,6 +14,5 @@ function lookDNA (cadenaAdn) {
         }
     }
 }
-//console.log(lookDNA(""));
 
 module.exports = lookDNA;
