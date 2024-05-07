@@ -1,3 +1,4 @@
+const users = require("./data").default;
 // You already have the methods imported
 import { default as expect } from "expect";
 import { getUser, getUsers } from "../users";
